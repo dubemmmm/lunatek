@@ -162,7 +162,7 @@ const DrinkSafetyMonitor = () => {
       console.log('Emergency Webhook Data:', JSON.stringify(emergencyData, null, 2));
       
       // TODO: Replace with your actual n8n webhook URL
-      const webhookURL = '/api/emergency';
+      const webhookURL = 'https://dubemmmm.app.n8n.cloud/webhook/24e4c41f-79d9-478d-93c5-82990a4fdbb2';
       
       try {
         // Uncomment this when you have your webhook URL ready

@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
   if (req.method === 'OPTIONS') {
     res.setHeader('Access-Control-Allow-Origin', 'https://lunatek.vercel.app');
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
@@ -24,4 +24,4 @@ export default async function handler(req, res) {
     console.error(e);
     res.status(502).json({ error: 'Proxy to n8n failed', detail: String(e) });
   }
-}
+};
