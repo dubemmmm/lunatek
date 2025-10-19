@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "dist"   # use "build" if you’re using CRA
+
+[functions]
+  directory = "netlify/functions"
