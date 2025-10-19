@@ -162,7 +162,7 @@ const DrinkSafetyMonitor = () => {
       console.log('Emergency Webhook Data:', JSON.stringify(emergencyData, null, 2));
       
       // TODO: Replace with your actual n8n webhook URL
-      const webhookURL = '/api/emergency';
+      const webhookURL = 'https://lunatek.vercel.app/api/emergency';
       
       try {
         // Uncomment this when you have your webhook URL ready
